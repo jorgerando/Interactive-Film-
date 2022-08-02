@@ -1,0 +1,88 @@
+body {
+  background-color: black;
+}
+
+li {
+  margin-top: 5px;
+}
+
+a {
+  font-family: "Dosis", sans-serif;
+  color: white;
+  text-decoration: none;
+}
+
+hr {
+  color: white;
+  border-style: solid;
+  border-color: white;
+  border-radius: 7px;
+  align: center;
+  width: 92%;
+}
+#Links {
+  padding-left: 20px;
+}
+
+#ContenerdorVideo {
+  position: relative;
+  padding: 0 1rem;
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#video {
+  background: rgba(40, 40, 40, 0.3);
+  border-style: solid;
+  border-color: white;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+#Informacion {
+  font-family: "Dosis", sans-serif;
+  position: absolute;
+  color: white;
+  max-width: 200px;
+  left: 0px;
+  top: 0px;
+  margin-right: 1%;
+  padding: 10px;
+  padding-top: 0px;
+  display: inline-block;
+  border-style: solid;
+  border-color: white;
+  border-radius: 7px;
+}
+
+#Mandos {
+  padding-left: 10%;
+  min-height: 125px;
+  max-height: 126px;
+}
+
+#Mandos button {
+  font-family: "Dosis", sans-serif;
+  font-size: 20px;
+  background: rgba(0, 0, 0, 0);
+  border: 2px solid white;
+  border-radius: 10px;
+  color: white;
+  max-width: 40%;
+  min-width: 20%;
+  margin: 1%;
+  height: 100px;
+  text-align: -webkit-center;
+}
+
+#Mandos button:hover {
+  background-color: rgba(0, 0, 255, 0.1);
+}
+#Mandos button:active {
+  background-color: rgba(0, 255, 0, 0.1);
+}
+a:hover {
+  color: #b0f5f4;
+}

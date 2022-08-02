@@ -1,0 +1,170 @@
+body {
+  margin: 0px;
+  background-color: rgb(0, 0, 0);
+}
+ul {
+  text-align: center;
+  margin: 0px;
+  padding-right: 20px;
+}
+
+li {
+  font-size: 10px;
+  display: inline-block;
+  margin-left: 20px;
+  padding: 3px;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: underline;
+}
+
+a {
+  font-family: "Dosis", sans-serif;
+  color: white;
+  text-decoration: none;
+}
+
+hr {
+  color: white;
+  border-style: solid;
+  border-color: white;
+  border-radius: 7px;
+  align: center;
+  width: 92%;
+}
+
+#Mandos {
+  padding: 10px;
+  padding-top: 0px;
+  text-align: center;
+  height: 30%;
+}
+
+#ContenerdorVideo {
+  margin: 8px;
+}
+
+#Informacion {
+  font-family: "Dosis", sans-serif;
+  color: white;
+  height: 80px;
+  padding-top: 5px;
+  border-style: solid;
+  margin: 8px;
+  border-color: white;
+  border-radius: 7px;
+  border-width: 1px;
+}
+#Informacion h3 {
+  text-align: center;
+  margin: 0px;
+}
+
+video {
+  width: 100%;
+  height: auto;
+  border-style: solid;
+  border-color: white;
+  border-radius: 20px;
+  border-width: 2px;
+}
+
+button {
+  display: inline-block;
+  margin-right: 20px;
+  font-family: "Dosis", sans-serif;
+  font-size: 15px;
+  background: rgba(0, 0, 0, 0);
+  border: 2px solid white;
+  border-radius: 10px;
+  color: white;
+  margin: 10px;
+  height: 50px;
+  min-width: 70%;
+  margin-top: 2px;
+  text-align: -webkit-center;
+}
+
+@media (min-width: 800px) {
+  /* Cuando la paguina se ejecuta en ordenador */
+  li {
+    margin-top: 5px;
+    font-size: 17px;
+    display: block;
+    border: none;
+    padding: 2px;
+    text-decoration: none;
+  }
+
+  video {
+    width: 720px;
+    height: 480px;
+    background: rgba(40, 40, 40, 0.3);
+    border-style: solid;
+    border-color: white;
+    border-radius: 20px;
+    display: inline-block;
+  }
+
+  #Informacion {
+    display: inline-block;
+    font-family: "Dosis", sans-serif;
+    color: white;
+    max-width: 200px;
+    height: auto;
+    margin-right: 1%;
+    padding: 10px;
+    padding-top: 0px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 7px;
+    position: absolute;
+    padding: 10px;
+    left: 20px;
+    top: 20px;
+  }
+
+  #Informacion {
+    position: absolute;
+    padding: 10px;
+    left: 20px;
+    top: 20px;
+  }
+
+  #Informacion h3 {
+    text-align: center;
+  }
+
+  /* Contenerdor del video */
+  #ContenerdorVideo {
+    padding: 0 1rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  button {
+    display: inline-block;
+    margin-right: 20px;
+    font-family: "Dosis", sans-serif;
+    font-size: 20px;
+    background: rgba(0, 0, 0, 0);
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    margin: 1%;
+    min-width: 0%;
+    height: 100px;
+    text-align: -webkit-center;
+  }
+}
+
+button:hover {
+  background-color: rgba(0, 0, 255, 0.1);
+}
+button:active {
+  background-color: rgba(0, 255, 0, 0.1);
+}
+a:hover {
+  color: #b0f5f4;
+}
